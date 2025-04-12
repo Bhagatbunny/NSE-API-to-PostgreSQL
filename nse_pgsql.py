@@ -5,7 +5,7 @@ import time
 import os
 import sys
 from dotenv import load_dotenv
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+# sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from utils import FileUtils
 from my_stocks import MyStockData
 from connect_to_pgsql import get_db_connection
